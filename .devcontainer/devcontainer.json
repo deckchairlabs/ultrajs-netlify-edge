@@ -12,5 +12,11 @@
     "denoland.vscode-deno",
     "eamodio.gitlens"
   ],
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+  "postCreateCommand": "npm install netlify-cli -g",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "latest"
+    }
+  }
 }

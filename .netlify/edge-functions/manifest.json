@@ -1,0 +1,10 @@
+{
+  "functions": [
+    {
+      "function": "index",
+      "pattern": "^[^.]*$"
+    }
+  ],
+  "import_map": "../../importMap.json",
+  "version": 1
+}
