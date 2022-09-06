@@ -1,8 +1,3 @@
-[dev]
-framework = "#custom"
-targetPort = 8000
-command = "deno task dev"
-
 [build]
 publish = "."
 
