@@ -1,6 +1,7 @@
 {
   "tasks": {
-    "dev": "deno run -A --watch ./server.tsx"
+    "dev": "deno run -A --watch ./server.tsx",
+    "build": "deno run -A ./build.ts"
   },
   "compilerOptions": {
     "jsx": "react-jsxdev",
